@@ -1,0 +1,27 @@
+{
+  "name": "mypackage",
+  "version": "1.0.0",
+  "description": "myfirstpackage",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marukohao/npm-lab-seattle-web-060319.git"
+  },
+  "author": "hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marukohao/npm-lab-seattle-web-060319/issues"
+  },
+  "homepage": "https://github.com/marukohao/npm-lab-seattle-web-060319#readme"
+}
